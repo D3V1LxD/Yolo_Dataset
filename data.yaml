@@ -1,0 +1,10 @@
+# Path to your dataset (use absolute path if the script throws errors later)
+path: YOLO_Dataset 
+train: images/train 
+val: images/val 
+
+# Number of classes
+nc: 1
+
+# Class names (The order MUST match the numbers inside your .txt files! 0 = Hilsa, 1 = Chapila, etc.)
+names: ['Hilsha']
